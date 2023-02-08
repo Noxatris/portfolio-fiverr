@@ -37,6 +37,15 @@ ul li{
     justify-content: center;
 }
 
+a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;   
+}
+
 .green_separator{
     width: 100%;
     background-color: #46CE7F;
@@ -78,3 +87,104 @@ input{
     display: flex;
 }
 
+/*==========================================================================================================================================================
+============================================================================================================================================================
+                                                                        DESKTOP
+============================================================================================================================================================
+==========================================================================================================================================================*/
+
+@media only screen and (min-width: 1025px){
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: #262626D9;
+        height: 85px;
+    }
+    
+    .container_Title{
+        width: 30%;
+        justify-content: flex-start;
+        margin-left: 60px;
+    }
+    
+    /*===========================================================================
+                                    Naviguation
+    ===========================================================================*/
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 30%;
+        height: 100%;
+    }
+    ul{
+        background-color: transparent;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        display: flex;
+    }
+    ul li{
+        background-color: transparent;
+        width: 25%;
+        height: 100%;
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul li:hover{
+        border-bottom: 3px solid #46CE7F;
+        background-color: #0c0c0ce3;;
+    }
+    a:hover{
+        color:#46CE7F;
+    }
+    
+    .green_separator{
+        display: none;
+    }
+    
+    input{
+        text-decoration: none;
+        appearance: none;
+        display: none;
+    }
+    
+    .button{
+        background-color: #262626D9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btnMenu{
+        background-color: #262626D9;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        width: 65px;
+        height: 45px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        font-size: 1.8em;
+    }
+    
+    .container_btn{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #chk_menu:checked ~ ul{
+        display: flex;
+    }
+}
