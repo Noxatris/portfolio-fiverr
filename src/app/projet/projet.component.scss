@@ -1,0 +1,38 @@
+.container_projet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.container_title{
+    background: rgba(30, 29, 29, 0.56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-bottom: 4px solid #46CE7C;
+    margin: 50px 0 50px 0;
+}
+
+.projet{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid #46CE7C;
+    background-color: rgba(50, 50, 50, 0.85);
+}
+
+.projet h3{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+}
+
+.projet_info{
+    display: none;
+}

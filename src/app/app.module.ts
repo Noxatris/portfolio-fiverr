@@ -8,6 +8,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ServiceComponent } from './service/service.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ProjetComponent } from './projet/projet.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ProjetComponent } from './projet/projet.component';
     HeaderComponent,
     ServiceComponent,
     ProfileComponent,
-    ProjetComponent
+    ProjetComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -23,6 +25,6 @@ import { ProjetComponent } from './projet/projet.component';
     FontAwesomeModule
   ],
   providers: [],
-  bootstrap: [AppComponent, HeaderComponent, ServiceComponent, ProfileComponent, ProjetComponent]
+  bootstrap: [AppComponent, HeaderComponent, ServiceComponent, ProfileComponent, ProjetComponent, FooterComponent]
 })
 export class AppModule { }
