@@ -29,3 +29,42 @@
     height: 3px;
     width: 100%;
 }
+
+/*==========================================================================================================================================================
+============================================================================================================================================================
+                                                                        DESKTOP
+============================================================================================================================================================
+==========================================================================================================================================================*/
+
+@media only screen and (min-width: 1025px){
+    .container_global_service{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container_title{
+        width: 25%;
+        height: 50px;
+        border-top: 2px solid #46CE7C;
+        border-right: 2px solid #46CE7C;
+        border-bottom: 2px solid #46CE7C;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    
+    .container_service{
+        width: 30%;
+        margin-bottom: 15px;
+        background-color: rgba(50, 50, 50, 0.85);
+        padding: 5px;
+        border-radius: 15px;
+    }
+    
+    .separator_service{
+        background-color: #46CE7C;
+        height: 3px;
+        width: 100%;
+    }   
+}

@@ -36,3 +36,50 @@
 .projet_info{
     display: none;
 }
+
+/*==========================================================================================================================================================
+============================================================================================================================================================
+                                                                        DESKTOP
+============================================================================================================================================================
+==========================================================================================================================================================*/
+
+@media only screen and (min-width: 1025px){
+    .container_title{
+        width: 25%;
+        height: 50px;
+        border-bottom: 2px solid #46CE7C;
+        border-right: 2px solid #46CE7C;
+        border-top: 2px solid #46CE7C;
+        margin: 50px 0 50px 0;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .container_projet{
+        flex-direction: row;
+    }
+    
+    .projet{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 0px solid #46CE7C;
+        border-right: 2px solid #46CE7C;
+        background-color: rgba(50, 50, 50, 0.85);
+        height: 400px;
+    }
+    
+    .projet h3{
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.6em;
+    }
+    
+    .projet_info{
+        display: none;
+    }
+}
